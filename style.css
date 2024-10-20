@@ -34,7 +34,7 @@ header {
 }
 
 .logo-img {
-    height: 120px; /* Logo mais destacado */
+    height: 150px; /* Aumentando ainda mais o tamanho do logo */
     max-width: 100%;
 }
 
@@ -102,6 +102,14 @@ h2 {
     font-size: 2em;
     margin-bottom: 1em;
     color: #f00;
+}
+
+#about h2 {
+    margin-bottom: 1.5em; /* Aumentando o espaçamento abaixo do título "Quem Somos" */
+}
+
+#about p {
+    margin-top: 1.5em; /* Mantendo espaçamento consistente com a seção de serviços */
 }
 
 .services-list {
