@@ -22,34 +22,25 @@ header {
 .container {
     width: 80%;
     margin: 0 auto;
-}
-
-.logo-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
+.logo-container {
+    flex-grow: 1;
+}
+
 .logo-img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-.logo {
-    color: #f00;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-nav {
-    float: right;
+    height: 60px; /* Aumente o tamanho do logo para dar mais destaque */
 }
 
 nav ul {
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
-    display: inline-block;
     margin-left: 20px;
 }
 
